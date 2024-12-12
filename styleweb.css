@@ -1,0 +1,71 @@
+.class{
+  
+}
+#web1{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    background-color: rgb(160, 170, 170);
+    border-radius: 10px;
+}
+
+#web3{
+    
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+video{
+    width: 100%;
+    border-radius: 10px;
+} 
+form{
+    display: block;
+    padding: 10px;
+    background-color:  rgb(229, 231, 231);
+    border-radius: 10px;
+    
+} 
+label{
+    display: block;
+}
+input{
+    width: 98%;
+    border-radius: 10px;
+}
+textarea{
+    width: 95%;
+    border-radius: 10px;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    height: 40px;
+    width: 40ox;
+    border-radius: 20px;
+}
+h2{
+    align-content: center;
+    text-align: center;
+    background-color: rgb(160, 170, 170);
+    border-radius: 10px;
+}
+table{
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(229, 231, 231);
+    border-radius: 10px;
+    border: 2px solid ;
+    border-collapse: collapse;
+}
+table, tr, th, td{
+    border: 2px solid ;
+    border-radius: 10px;
+}
+body{
+    background-image: url(pexels-pixabay-247851.jpg);
+}
+
