@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+        }
+        label{
+            display: block;
+            margin-bottom: 5PX;
+            margin: 10px;
+            
+        }
+        input[type=radio]{
+            width: auto;
+
+            
+        }
+        fieldset{
+            border: 0px;
+            margin-top: 10px;
+            
+        }
+        form{
+            background-color: rgba(150, 144, 144, 0.534);
+            width: 70%;
+            padding: 10px;
+            border-radius: 20px;
+            margin: auto;
+            box-shadow: -5px -5px 30px;
+            transition: all 2s;
+            animation-name: form;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation: form 2s  ;
+        }
+         @keyframes form{
+            0%{
+                height: 0px;
+            }
+            25%{
+                height: 100px;
+            }
+            50%{
+                height: 200px;
+            }
+            75%{
+                height: 300px;
+            }
+            100%{
+                height: max-content;
+            } 
+        }
+        form:hover{
+            background-color: rgba(65, 63, 63, 0.534);
+            padding: 15px;
+        }
+        input{
+            width: 100%;
+            border-radius: 10px;
+            
+            box-sizing: border-box;
+        }
+       
+        
+        textarea{
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+            
+        }
+        legend{
+            margin-left: -7px;
+            
+        }
+        body{
+            background-color: rgb(175, 182, 181);
+        }
+        input-hover{
+            padding: 50px;
+            margin: 50px;
+        }      
+        
+    </style>
+</head>
+<body>
+    
+    <form action="\submit_form">
+        <h1>Information Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+
+        <label for="content">Content:</label>
+        <input type="text" name="Content" id="content">
+
+        <fieldset>
+            <legend> Gender</legend>
+            <label for="male"><input type="radio" name="male" id="male" value="male">Male</label>
+            <label for="female"><input type="radio" name="female" id="female" value="female">Female</label>
+        </fieldset>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="6" maxlength="10"></textarea>
+
+
+
+    </form> 
+</body>
+</html>
