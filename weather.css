@@ -1,0 +1,55 @@
+body{
+    /* text-align: center; */
+    background-color: rgb(21, 21, 49);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.forecast-contnainer{
+    background-color: rgb(12, 12, 99);
+    width: 50%;
+    align-content: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 25%;
+    border-radius: 20px;
+    
+    
+}
+.forecast-item{
+    background-color: rgb(2, 2, 26);
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    /*  */
+}
+.weather-icon{
+    flex: 1;
+    margin-right: 20px;
+    
+}
+.sunny{
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(165, 165, 41);
+}
+.cloudly{
+    width: 10px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(61, 60, 60);
+    
+}
+h1{
+    text-decoration-line: underline;
+}
+.saad{
+    /* margin-right: 170px; */
+    padding-left: 10px;
+    flex: 5;
+}
